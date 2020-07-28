@@ -1,5 +1,5 @@
 ---
-thumbnail: ""
+thumbnail: "/uploads/BB-Home.jpg"
 title: Blue Dojo - Version 1
 date: 2019-01-04
 categories:
