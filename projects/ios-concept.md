@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/markus-spiske-516263-unsplash.jpg"
+thumbnail: "/uploads/RW-Home.png"
 title: Ruggedwerx
 date: 2019-01-03
 categories:
