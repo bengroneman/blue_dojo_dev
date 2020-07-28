@@ -1,4 +1,38 @@
 ---
 label: Timeline Entry
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Job title, accomplishment, project, advancement, etc...
+- name: start_date
+  type: datetime
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Start Date
+  description: Event start date
+- name: end_date
+  type: datetime
+  label: End Date
+  description: The date the event finished. Can be null
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Details
+  description: A place to really define what I learned from the event.
