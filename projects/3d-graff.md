@@ -1,10 +1,13 @@
 ---
 thumbnail: "/uploads/ian-dooley-281897-unsplash.jpg"
-title: Ice Cream
+title: Blue Dojo - Version 1
 date: 2019-01-04
 categories:
-- photography
-- yellow
+- Vue
+- Bulma
+- CSS
+- sketch
+- JavaScript
 project_bg_color: ''
 project_fg_color: "#FDC70D"
 
