@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/RW-Home.png"
+thumbnail: "/uploads/RW-Home.jpg"
 title: Ruggedwerx
 date: 2019-01-03
 categories:
@@ -12,8 +12,9 @@ categories:
 - PHP
 - MySQL
 - Visual Composer
-project_bg_color: ''
-project_fg_color: "#DF6262"
+project_bg_color: "#000000"
+project_fg_color: "#0eace2"
 
 ---
-![](/uploads/markus-spiske-516263-unsplash.jpg)
+![](/uploads/RW-Home.jpg)
+## Ruggedwerx
