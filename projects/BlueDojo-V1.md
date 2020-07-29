@@ -1,7 +1,7 @@
 ---
 thumbnail: "/uploads/bgv-home.png"
 title: Blue Dojo - Version 1
-date: 2019-01-01
+date: 2020-03-01
 categories:
 - Vue
 - Bulma
