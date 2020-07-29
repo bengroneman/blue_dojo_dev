@@ -9,6 +9,6 @@ categories:
 - sketch
 - JavaScript
 project_bg_color: ''
-project_fg_color: "#FDC70D"
+project_fg_color: "#50E3C2"
 
 ---
