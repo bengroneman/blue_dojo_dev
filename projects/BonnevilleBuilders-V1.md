@@ -12,7 +12,7 @@ categories:
 - MySQL
 - Visual Composer
 project_bg_color: "#FFFFFF"
-project_fg_color: "#ffc563"
+project_fg_color: "#000000"
 
 ---
 ![](/uploads/BB-Home.jpg)
