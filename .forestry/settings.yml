@@ -12,19 +12,19 @@ sections:
   templates:
   - timeline-entry
 - type: directory
-  path: projects
-  label: Projects
-  create: documents
-  match: "**/*.md"
-  templates:
-  - project
-- type: directory
   path: blog
   label: Blog
   create: documents
   match: "**/*.md"
   templates:
   - journal
+- type: directory
+  path: projects
+  label: Projects
+  create: documents
+  match: "**/*.md"
+  templates:
+  - project
 - type: document
   path: data/theme.json
   label: Theme config
