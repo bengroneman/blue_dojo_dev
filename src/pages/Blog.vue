@@ -24,7 +24,7 @@
   </Layout>
 </template>
 
-<static-query>
+<page-query>
 query {
 	posts: allBlogPost {
     edges {
@@ -37,7 +37,7 @@ query {
     }
   }
 }
-</static-query>
+</page-query>
 
 <script>
 export default {
