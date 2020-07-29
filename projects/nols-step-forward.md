@@ -1,5 +1,5 @@
 ---
-date: 2020-07-29
+date: 2018-10-01
 thumbnail: "/uploads/nols-sf-yi.jpg"
 title: NOLS | Step Forward
 categories:

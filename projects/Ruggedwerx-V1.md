@@ -1,7 +1,7 @@
 ---
 thumbnail: "/uploads/RW-Home.jpg"
 title: Ruggedwerx
-date: 2019-01-03
+date: 2017-07-01
 categories:
 - Wordpress
 - CSS
