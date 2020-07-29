@@ -11,21 +11,32 @@
 
         <div class="sender-info">
           <div>
-            <label for="name" class="label">Your name</label>
-            <input type="text" name="name" />
+            <label for="first_name" class="label">First name</label>
+            <input v-model="contact['first_name']" type="text" name="first_name" />
           </div>
           <div>
+            <label for="last_name" class="label">Last name</label>
+            <input v-model="contact['last_name']" type="text" name="last_name" />
+          </div>
+
+          <div>
             <label for="email" class="label">Your email</label>
-            <input type="email" name="email" />
+            <input v-model="contact['email']" type="email" name="email" />
           </div>
         </div>
 
         <div class="message">
           <label for="message" class="label">Message</label>
-          <textarea name="message"></textarea>
+          <textarea v-model="contact['message']" name="message"></textarea>
         </div>
 
-        <button class="button">Submit form</button>
+        <span 
+          @click="addContact()"
+          class="button"
+          aria-labelledby="contact form submission button"
+        >
+          Submit form
+        </span>
 
       </form>
 
@@ -34,7 +45,41 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      contact: {
+        type: Object,
+      },
+      loading: {
+        Boolean,
+        default: false,
+      },
+      errored: {
+        type: Boolean,
+        default: false,
+      },
+    }
+  },
+  methods: {
+    async addContact() {
+      // TOOD: Find a way to process these form submissions
+      // Requirements:
+      //  - Must send the client an email saying I will respond ASAP
+      //  - Must be a severless operation
+      //  - Must send me a notification email with the details of the form submission
+      let options = {
+        method: 'POST',
+        mode: 'cors',
+        headers: {'content-type': 'application/json'},
+        body: JSON.stringify(this.contact),
+      }
+      console.log(process.env.GRIDSOME_HS_CONTACT_ENDPOINT);
+      const response = await fetch(process.env.GRIDSOME_HS_CONTACT_ENDPOINT, options);
+      response.json().then((data) => console.log(data));
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -96,4 +141,3 @@ textarea {
   border: 1px solid var(--color-base-1);
 }
 </style>
-
