@@ -5,6 +5,13 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: timeline
+  label: Timeline
+  create: documents
+  match: "**/*.md"
+  templates:
+  - timeline-entry
+- type: directory
   path: projects
   label: Projects
   create: documents
@@ -12,8 +19,8 @@ sections:
   templates:
   - project
 - type: directory
-  path: journal
-  label: Journal
+  path: blog
+  label: Blog
   create: documents
   match: "**/*.md"
   templates:
