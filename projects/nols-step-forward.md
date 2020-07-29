@@ -1,6 +1,6 @@
 ---
 date: 2020-07-29
-thumbnail: "/uploads/nols-sf-cg.jpg"
+thumbnail: "/uploads/nols-sf-yi.jpg"
 title: NOLS | Step Forward
 categories:
 - CSS
