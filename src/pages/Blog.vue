@@ -25,14 +25,14 @@
 </template>
 
 <page-query>
-query {
-	posts: allBlogPost {
+query Posts {
+	posts: allBlogPost(sortBy: "date", order: DESC) {
     edges {
       node {
         id
         path
         title
-        excerpt
+        date
       }
     }
   }
