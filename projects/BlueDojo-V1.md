@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/bgv-about.png"
+thumbnail: "/uploads/bgv-home.png"
 title: Blue Dojo - Version 1
 date: 2019-01-04
 categories:
