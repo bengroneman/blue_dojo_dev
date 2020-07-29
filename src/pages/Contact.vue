@@ -74,8 +74,8 @@ export default {
         headers: {'content-type': 'application/json'},
         body: JSON.stringify(this.contact),
       }
-      console.log(process.env.GRIDSOME_HS_CONTACT_ENDPOINT);
-      const response = await fetch(process.env.GRIDSOME_HS_CONTACT_ENDPOINT, options);
+      const url = `https://api.hubapi.com/crm/v3/objects/contacts?hapikey=${process.env.HAPIKEY}`
+      const response = await fetch(url, options);
       response.json().then((data) => console.log(data));
     }
   }
