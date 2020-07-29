@@ -4,7 +4,7 @@
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          a wise person once said...
+          Coming Soon...
         </h1>
       </div>
     </div>
@@ -25,8 +25,8 @@
 </template>
 
 <page-query>
-query Journal {
-	posts: allJournalPost {
+query Blog {
+	posts: allBlogPost {
     edges {
       node {
         id
