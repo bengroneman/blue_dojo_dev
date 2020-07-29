@@ -12,6 +12,7 @@ categories:
 - PHP
 - MySQL
 - Visual Composer
+- Apache
 project_bg_color: "#000000"
 project_fg_color: "#FFFFFF"
 
