@@ -33,7 +33,7 @@
         <span 
           @click="addContact()"
           class="button"
-          aria-labelledby="contact form submission button"
+          aria-labelledby="contact form submit"
         >
           Submit form
         </span>
