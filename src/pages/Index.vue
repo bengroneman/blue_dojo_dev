@@ -22,6 +22,15 @@ query Posts {
       }
     }
   },
+  posts: allblogPost {
+    edges {
+      node {
+        id
+        path
+        title
+      }
+    }
+  }
 }
 </page-query>
 

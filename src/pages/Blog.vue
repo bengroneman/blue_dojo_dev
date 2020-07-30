@@ -25,6 +25,15 @@
 </template>
 
 <page-query>
+query {
+  posts: allBlogPost {
+    edges {
+      node {
+        id
+      }
+    }
+  }
+}
 </page-query>
 
 <script>
