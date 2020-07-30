@@ -22,7 +22,7 @@ query Posts {
       }
     }
   },
-  posts: allblogPost {
+  blogPosts: allBlogPost(perPage: 4) {
     edges {
       node {
         id

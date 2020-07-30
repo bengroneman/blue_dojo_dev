@@ -25,11 +25,14 @@
 </template>
 
 <page-query>
-query {
+query Blog {
   posts: allBlogPost {
     edges {
       node {
         id
+        path
+        title
+        excerpt
       }
     }
   }
