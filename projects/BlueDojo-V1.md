@@ -8,8 +8,8 @@ categories:
 - CSS
 - sketch
 - JavaScript
-project_bg_color: ''
-project_fg_color: "#50E3C2"
+project_bg_color: '#212123'
+project_fg_color: '#fff'
 
 ---
 ![](/uploads/bgv-about.png)

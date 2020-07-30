@@ -9,8 +9,8 @@ categories:
 - jQuery
 - Design
 - Photoshop
-project_bg_color: ''
-project_fg_color: ''
+project_bg_color: '#f8f5ee'
+project_fg_color: '#0a0a08'
 
 ---
 ![](/uploads/nols-sf-home.jpg)

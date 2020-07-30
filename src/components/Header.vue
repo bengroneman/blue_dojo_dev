@@ -3,11 +3,7 @@
         <div class="container">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
-                    <img 
-                        src="../../static/logo.svg"
-                        :alt="settings.site_name" 
-                        class="logo"
-                    />
+                    <i class="fas fa-shapes"></i>
                 </g-link>
             </div>
             <nav class="nav right">
