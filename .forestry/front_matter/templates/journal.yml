@@ -35,3 +35,5 @@ fields:
     - Nichlas W. Andersen
   label: Author
   default: Nichlas W. Andersen
+pages:
+- posts/testing-this-feature.md
