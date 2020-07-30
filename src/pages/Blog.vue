@@ -26,13 +26,12 @@
 
 <page-query>
 query Posts {
-	posts: allBlogPost(sortBy: "date", order: DESC) {
+  posts: allBlogPost (perPage: 4) {
     edges {
       node {
         id
         path
         title
-        date
       }
     }
   }
