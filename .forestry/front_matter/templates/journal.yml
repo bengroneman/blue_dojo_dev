@@ -35,3 +35,7 @@ fields:
     - Nichlas W. Andersen
   label: Author
   default: Nichlas W. Andersen
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
