@@ -25,17 +25,6 @@
 </template>
 
 <page-query>
-query Posts {
-  posts: allBlogPost (perPage: 4) {
-    edges {
-      node {
-        id
-        path
-        title
-      }
-    }
-  }
-}
 </page-query>
 
 <script>
