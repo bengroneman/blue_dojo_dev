@@ -22,6 +22,7 @@ fields:
     date_format: YYYY-MM-DD
     time_format: ''
     export_format: YYYY-MM-DD
+  description: the publish / modified on date
   default: now
 - type: select
   name: author
@@ -29,12 +30,12 @@ fields:
     source:
       type: simple
       section: authors
-      file: data/authors/nichlas-w-andersen.json
+      #file: data/authors/nichlas-w-andersen.json
     required: true
     options:
-    - Nichlas W. Andersen
+    - Ben B. Groneman
   label: Author
-  default: Nichlas W. Andersen
+  default: Ben B. Groneman
 - name: categories
   type: tag_list
   default: []

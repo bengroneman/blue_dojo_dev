@@ -4,7 +4,7 @@
       <Hero />
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
-    <LatestJournals :journals="$page.posts.edges" />
+    <!--<LatestJournals :journals="$page.posts.edges" />-->
   </Layout>
 </template>
 
@@ -21,15 +21,6 @@ query Posts {
         path
       }
     }
-  },
-  blogPosts: allBlogPost(perPage: 4) {
-    edges {
-      node {
-        id
-        path
-        title
-      }
-    }
   }
 }
 </page-query>
@@ -37,13 +28,13 @@ query Posts {
 <script>
 import Hero from "@/components/Hero"
 import ProjectsGrid from "@/components/ProjectsGrid"
-import LatestJournals from "@/components/LatestJournals"
+//import LatestJournals from "@/components/LatestJournals"
 
 export default {
   components: {
     Hero,
     ProjectsGrid,
-    LatestJournals
+//    LatestJournals
   }
 }
 </script>
