@@ -11,6 +11,21 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 
 export default {
+  data() {
+    return {
+      page_color: String,
+    }
+  },
+  mounted() {
+    this.page_color = this.getPageColor();
+  },
+  methods: {
+    // TODO: get the current page color and pass it to the cantor component
+    // NOTE: Should we be bubbling up or down? Or does it make more sense to bring this data into a state level?
+    getPageColor() {
+
+    }
+  },
   components: {
     Header,
     Footer
@@ -18,6 +33,17 @@ export default {
 }
 </script>
 
+<static-query>
+query {
+	projects: allProjectPost {
+    edges {
+      node {
+        project_fg_color
+      }
+    }
+  },
+}
+</static-query>
 
 <style>
 * {

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
-                    <i class="fas fa-shapes"></i>
+                    <Cantor></Cantor>
                 </g-link>
             </div>
             <nav class="nav right">
@@ -16,13 +16,18 @@
 </template>
 
 <script>
+import Cantor from '@/sketches/Cantor.vue';
+
 export default {
   data() {
     return {
         logo: require("../../static/logo.svg"),
         settings: require("../../data/theme.json")
     }
-  }
+  },
+  components: {
+    Cantor,
+  },
 }
 </script>
 

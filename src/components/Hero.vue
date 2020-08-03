@@ -6,12 +6,13 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
       settings: require("../../data/theme.json")
     }
-  }
+  },
 }
 </script>
 
