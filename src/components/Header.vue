@@ -3,7 +3,7 @@
         <div class="container">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
-                    <Cantor></Cantor>
+                    Blue Dojo
                 </g-link>
             </div>
             <nav class="nav right">
@@ -16,7 +16,6 @@
 </template>
 
 <script>
-import Cantor from '@/sketches/Cantor.vue';
 
 export default {
   data() {
@@ -24,9 +23,6 @@ export default {
         logo: require("../../static/logo.svg"),
         settings: require("../../data/theme.json")
     }
-  },
-  components: {
-    Cantor,
   },
 }
 </script>
