@@ -13,9 +13,10 @@ categories:
 - MySQL
 - Visual Composer
 - Apache
-project_bg_color: '#2e3840'
-project_fg_color: '#FFFFFF'
+project_bg_color: "#2e3840"
+project_fg_color: "#FFFFFF"
 
 ---
 ![](/uploads/RW-Home.jpg)
-## Ruggedwerx
+
+[Visit Website](https://ruggedwerx.com "Ruggedwerx")
