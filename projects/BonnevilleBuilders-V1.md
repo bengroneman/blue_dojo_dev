@@ -16,5 +16,7 @@ project_fg_color: "#313131"
 
 ---
 ![](/uploads/BB-Home.jpg)
+
 ## Bonneville Builders
-[Website]("https://buildbonneville.com)
+
+[Visit Website](https://buildbonneville.com "Bonneville Builders")
