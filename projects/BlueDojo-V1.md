@@ -8,10 +8,10 @@ categories:
 - CSS
 - sketch
 - JavaScript
-project_bg_color: '#212123'
-project_fg_color: '#fff'
+project_bg_color: "#212123"
+project_fg_color: "#fff"
 
 ---
 ![](/uploads/bgv-about.png)
 
-# Blue Dojo Version 1
+[See Code](https://github.com/bengroneman/blue-g-vue "Blue Dojo")
