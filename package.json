@@ -1,5 +1,5 @@
 {
-  "name": "Blue Dojo Dev",
+  "name": "blue_dojo_dev",
   "private": true,
   "scripts": {
     "build": "gridsome build",
