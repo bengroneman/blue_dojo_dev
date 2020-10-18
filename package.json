@@ -1,10 +1,12 @@
 {
-  "name": "itsnwa.com",
+  "name": "Blue Dojo Dev",
   "private": true,
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "build:css": "npx tailwindcss build ./src/assets/tailwind.css -o ./src/assets/main-build.css",
+    "build:all": "npm run build:css && npm run build"
   },
   "dependencies": {
     "@gridsome/remark-prismjs": "0.3.0",
