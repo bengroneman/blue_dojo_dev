@@ -7,7 +7,11 @@
         <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
       </div>
 
-      <form class="contact-form" name="contact">
+      <form
+        class="contact-form"
+        name="contact"
+        @submit.prevent="handleSubmit"
+      >
 
         <div class="sender-info">
           <div>
@@ -62,21 +66,16 @@ export default {
     }
   },
   methods: {
-    async addContact() {
-      // TOOD: Find a way to process these form submissions
-      // Requirements:
-      //  - Must send the client an email saying I will respond ASAP
-      //  - Must be a severless operation
-      //  - Must send me a notification email with the details of the form submission
-      let options = {
+    handleSubmit: function(e) {
+      fetch('/', {
         method: 'POST',
-        mode: 'cors',
-        headers: {'content-type': 'application/json'},
-        body: JSON.stringify(this.contact),
-      }
-      const url = `https://api.hubapi.com/crm/v3/objects/contacts?hapikey=${process.env.HAPIKEY}`
-      const response = await fetch(url, options);
-      response.json().then((data) => console.log(data));
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: this.encode({
+          'form-name': e.target.getAttribute('name'),
+          ...this.formData,
+        }),
+      })
+      .catch(error => alert(error))
     }
   }
 }
