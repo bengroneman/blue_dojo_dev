@@ -36,6 +36,7 @@
 
         <button 
           class="button"
+          type="submit"
           aria-labelledby="contact form submit"
         >
           Submit form
