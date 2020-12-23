@@ -34,13 +34,12 @@
           <textarea v-model="contact['message']" name="message"></textarea>
         </div>
 
-        <span 
-          @click="addContact()"
+        <button 
           class="button"
           aria-labelledby="contact form submit"
         >
           Submit form
-        </span>
+        </button>
 
       </form>
 
