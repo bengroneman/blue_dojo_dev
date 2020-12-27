@@ -11,6 +11,6 @@ export default function(Vue, { head }) {
   };
   head.script.push({
     src: 'http://178.128.190.56:8000/js/plausible.js',
-    data_domain: 'bluedojo.dev'
+    'data-domain': 'bluedojo.dev'
   });
 }
