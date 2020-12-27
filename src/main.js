@@ -9,4 +9,7 @@ export default function(Vue, { head }) {
   head.bodyAttrs = {
     class: settings.dark_mode ? "dark" : ""
   };
+  head.script.push({
+    src: 'http://178.128.190.56:8000/js/plausible.js'
+  });
 }
